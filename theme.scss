@@ -1,0 +1,50 @@
+/*-- scss:defaults --*/
+// ---------------------------------------------------------------------------
+// Light palette: Penn blue accent, Wharton red for emphasis, white paper.
+// Component rules live in _site-rules.scss and are shared with theme-dark.scss;
+// this file only sets the Bootstrap variables and the --site-* tokens.
+// ---------------------------------------------------------------------------
+$penn-blue:   #011F5B;
+$wharton-red: #A90533;
+
+$body-bg:    #ffffff;
+$body-color: #1c1b19;
+$link-color: $penn-blue;
+$primary:    $penn-blue;
+
+$font-size-root: 17px;
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, "Liberation Sans", "DejaVu Sans", sans-serif;
+
+$navbar-bg: #ffffff;
+$navbar-fg: #6c6a66;
+$footer-bg: #ffffff;
+$footer-fg: #94918b;
+
+$h1-font-size: 34px;
+$headings-font-weight: 700;
+
+/*-- scss:rules --*/
+:root {
+  --site-bg:          #ffffff;
+  --site-surface:     #f8f8f6;
+  --site-surface-2:   #f1f1ee;
+  --site-text:        #1c1b19;
+  --site-muted:       #6c6a66;
+  --site-faint:       #94918b;
+  --site-border:      #e7e5e0;
+  --site-accent:      #{$penn-blue};
+  --site-accent-soft: #e8edf7;
+  --site-red:         #{$wharton-red};
+  --site-shadow:      rgba(0, 0, 0, .10);
+  --site-maxw:        820px;
+  --site-radius:      12px;
+
+  --badge-fg:         #ffffff;
+  --badge-published:  #{$penn-blue};
+  --badge-accepted:   #1f7a4d;
+  --badge-rr:         #6d28d9;
+  --badge-review:     #0e7490;
+  --badge-submitted:  #{$wharton-red};
+}
+
+@import "site-rules";
