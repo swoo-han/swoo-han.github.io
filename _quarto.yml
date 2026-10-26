@@ -6,7 +6,7 @@ project:
     - "!outdated/"
 
 website:
-  site-url: "https://sangwooh.github.io"
+  site-url: "https://swoo-han.github.io"
   title: "Sangwoo Han"
   page-footer: "© 2026 Sangwoo Han · Built with Quarto · Hosted on GitHub Pages"
   navbar:
