@@ -4,6 +4,8 @@ project:
   render:
     - "**/*.qmd"
     - "!outdated/"
+  resources:
+    - research/*.pdf
 
 website:
   site-url: "https://swoo-han.github.io"

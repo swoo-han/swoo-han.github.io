@@ -15,6 +15,9 @@ body-classes: front-page
   <article class="paper">
     <h3 class="paper-title">Energy Impacts of Green Remodeling: Evidence from the Building Sector</h3>
     <p class="authors"><span class="me">Sangwoo Han</span> and Yeong Jae Kim</p>
+    <div class="links">
+      <a href="green_remodeling.pdf" target="_blank" rel="noopener">Paper</a>
+    </div>
   </article>
 
   <article class="paper">
@@ -26,6 +29,9 @@ body-classes: front-page
   <article class="paper">
     <h3 class="paper-title">When Electric Vehicle Off-Peak Charging Discounts Backfire and When They Don&rsquo;t: Experimental Evidence from South Korea</h3>
     <p class="authors"><span class="me">Sangwoo Han</span>, David Woo, Sungho Park, and Yeong Jae Kim</p>
+    <div class="links">
+      <a href="EV_charging_experiment.pdf" target="_blank" rel="noopener">Paper</a>
+    </div>
   </article>
 
   <h2 class="section-title" style="margin-top:44px;">Work in progress</h2>
